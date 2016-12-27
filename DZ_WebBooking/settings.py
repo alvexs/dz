@@ -25,7 +25,7 @@ SECRET_KEY = '=iy8!#&b01utzr--0&9jk-i_h66t5dralz$30)8r^ii$17m%#r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dz.urls'
+ROOT_URLCONF = 'DZ_WebBooking.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "dz.wsgi.application"
+WSGI_APPLICATION = "DZ_WebBooking.wsgi.application"
 
 
 # Database
