@@ -24,7 +24,7 @@ urlpatterns = [
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^/index', index, name='index'),
+    url(r'^index/', index, name='index'),
     url(r'^flight/(?P<id>\d+)', flight, name='flight_url'),
     url(r'^signup/', signup, name='signup'),
     url(r'^login/', login, name='login'),
