@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DZ_WebBooking.urls'
+ROOT_URLCONF = 'dz.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "DZ_WebBooking.wsgi.application"
+WSGI_APPLICATION = "dz.wsgi.application"
 
 
 # Database

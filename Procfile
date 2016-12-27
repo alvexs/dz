@@ -1,1 +1,1 @@
-web: gunicorn DZ_WebBooking.wsgi --log-file -
+web: gunicorn dz.wsgi --log-file -
